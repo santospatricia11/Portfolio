@@ -28,6 +28,7 @@ nav {
 }
 
 nav .logo a {
+    
     font-size: 30px;
     font-weight: bold;
     color: #008000;
@@ -51,7 +52,7 @@ nav ul li a {
     color: #008000;
 }
 
-nav ul li a.active,
+nav ul li a.activeSobre,
 nav ul li a:hover {
 
     background: #525a52;
@@ -78,7 +79,7 @@ main {
 }
 
 .text-bx p {
-    color: #9a99a1;
+    color: #356942;
     font-weight: 400;
     margin-top: 20px;
 }
