@@ -228,7 +228,39 @@ header .menu-btn-burger::before {
     font-family: "Abel";
     font-style: normal;
 }
+.main{
+    width: 100rem;
+    height: 50px;
+    
+}
+.main .card{
+    
+        position: relative;
+        width: 300px;
+        height: 400px;
+        margin: 0 auto;
+    
+        border-radius: 15px;
+       
+}
+    
 
+.main .card-group{
+    align-items: stretch;
+    
+
+}
+.main .card-img-top {
+    margin: top 3rem;
+    width: 200%;
+}
+@media  screen and(min-widdth:760px) {
+    .main .card-img-top{
+        align-items: stretch;
+       
+    }
+    
+}
 @media screen and (min-width: 768px) {
     .logo-container {
         z-index: 2;
@@ -241,7 +273,7 @@ header .menu-btn-burger::before {
     }
 
     header .navbar-container {
-        height: 5rem !important;
+        align-items: stretch;
     }
 
     header .nav {
@@ -521,3 +553,4 @@ body .logo-container .second {
     font-size: 20px;
     font-style: normal;
 }
+

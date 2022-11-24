@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="/css/style.css">
-    <title>Patricia dos Sasntos Pereira</title>
+    <link rel="stylesheet" href="/css/formacao.css">
+    <title>Projetos</title>
 </head>
 
 <body>
@@ -22,48 +22,53 @@
                     <span class="menu-btn-burger"></span>
                 </div>
                 <nav class="nav">
-                    <div class="menu-btn">
-                        <i class="fa fa-bars fa-2x" onclick="menuShow()"></i>
-                    </div>
                     <ul class="menu-nav">
                         <li class="menu-nav-item">
-                            <a class="menu-nav-link" onclick="menuShow()" href="index.html">Sobre</a>
+                            <a class="menu-nav-link" onclick="activateLink" href="index.html">Sobre</a>
                         </li>
                         <li class="menu-nav-item">
-                            <a class="menu-nav-link" onclick="menuShow()" href="/pages/tecnologias.html">Stacks</a>
+                            <a class="menu-nav-link" onclick="activateLink" href="#Stacks">Stacks</a>
                         </li>
                         <li class="menu-nav-item">
-                            <a class="menu-nav-link" onclick="menuShow()" href="/pages/portfolio.html">Projetos</a>
+                            <a class="menu-nav-link" onclick="activateLink(this)" href="/pages/portfolio.html">Projetos</a>
                         </li>
                         <li class="menu-nav-item">
-                            <a class="menu-nav-link"onclick="menuShow()" href="/pages/formacao.html">Formação</a>
+                            <a class="menu-nav-link" onclick="activateLink(this)" href="#formação">Formação</a>
                         </li>
                         <li class="menu-nav-item">
-                            <a class="menu-nav-link" onclick="menuShow()" href="/pages/contato.html">Contatos</a>
+                            <a class="menu-nav-link" onclick="activateLink(this)" href="#Contatos">Contatos</a>
                         </li>
                     </ul>
                 </nav>
         </div>
     </header>
+    <section class="bio">
+        <div class="bio-container" id="Sobre">
+         
+            <div class="bio-text">
 
-    <main>
-        <section class="bio">
-            <div class="bio-container" id="Sobre">
-             
-                <div class="bio-text">
+                <p class="title">Formação Acadêmica</p>
+                <h5 class="bio-caption">Meu nome é Patricia dos Santos Pereira e eu estou cursando
+                    Análise e Desenvolvimento <br>de Sistemas no campus IFPB Campus Monteiro.
+                    Sou paraíbana(natural de Serra Branca) e atualmente resido em Monteiro</h5>
 
-                    <p class="title">Olá!</p>
-                    <p class="bio-subtitle">Seja bem vindo a minha página!</p>
-                    <p class="bio-caption">Meu nome é Patricia dos Santos Pereira e eu estou cursando
-                        Análise e Desenvolvimento <br>de Sistemas no campus IFPB Campus Monteiro.
-                        Sou paraíbana(natural de Serra Branca) e atualmente resido em Monteiro.
-                    <div class="cta-buttons">
-                        <button class="fill" onclick="window.open('https://linkedin.com/in/patrícia-santos11')" >Perfil no LinkedIn</button>
-                        <button class="fill" onclick="window.open('https://github.com/santospatricia11')" >Perfil no GitHub</button>
-                    </div>
+                <h1 class="bio-subtitle">Graduanda em Análise e Senvolvimento de Sistemas:</h1>
+                <h2>Instituto Federal da Paraíba — Monteiro, PB
+                    <br>01/2019— 06/2023
+                </h2>
+                <h1 class="bio-subtitle">Curso tecnico em Manutenção e Suport e Informática:</h1>
+                <h2>Instituto Federal da Paraíba — Monteiro, PB
+                    <br>01/2015— 06/2017
+                </h2>
+               
+                <div class="cta-buttons">
+                    <button class="fill" onclick="window.open('https://linkedin.com/in/patrícia-santos11')" >Perfil no LinkedIn</button>
+                    <button class="fill" onclick="window.open('https://github.com/santospatricia11')" >Perfil no GitHub</button>
                 </div>
-        </section>
-
+            </div>
+    </section>
+    <main>
+     
         <section>
             <footer>
              
@@ -91,6 +96,6 @@
   
 </body>
 <script src="./js/main.js"></script>
-
+<script src="./js/menu.js"></script>
 
 </html>
