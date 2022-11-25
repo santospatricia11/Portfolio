@@ -245,13 +245,13 @@ header .menu-btn-burger::before {
     }
 
     header .nav {
-        visibility: visible;
         display: flex;
-        display: flex;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
+        justify-content: space-around;
+        box-align: center;
         align-items: center;
-        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 8vh;
+
     }
 
     header .nav .menu-nav {
@@ -310,9 +310,61 @@ header .menu-btn-burger::before {
     }
 
 
-
-
-
+    header .menu-btn-burger {
+        position: absolute;
+        top: 0.5 rem;
+        width: 28px;
+        background-color: white;
+        border-radius: 3px;
+        height: 3px;
+        right: 0;
+        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+      }
+      
+      header .menu-btn-burger::before {
+        content: '';
+        position: absolute;
+        top: -8px;
+        width: 28px;
+        background-color: white;
+        border-radius: 3px;
+        height: 3px;
+        right: 0;
+        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+      }
+      
+      header .menu-btn-burger::after {
+        content: '';
+        position: absolute;
+        top: 8px;
+        width: 20px;
+        background-color: white;
+        border-radius: 3px;
+        height: 3px;
+        right: 0;
+        -webkit-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+      }
+      
+      header .menu-btn-burger.open {
+        -webkit-transform: rotate(720deg);
+                transform: rotate(720deg);
+        background-color: transparent !important;
+      }
+      
+      header .menu-btn-burger.open::before {
+        -webkit-transform: rotate(45deg) translate(5px, 8px);
+                transform: rotate(45deg) translate(5px, 8px);
+      }
+      
+      header .menu-btn-burger.open::after {
+        width: 28px !important;
+        -webkit-transform: rotate(-45deg) translate(3px, -7px);
+                transform: rotate(-45deg) translate(3px, -7px);
+      }
+      
 
     footer {
         display: -webkit-box;
