@@ -5,11 +5,6 @@
     }
 }
 
-@mixin media-lg {
-    @media screen and (min-width: 1024px){
-        @content
-    }
-}
 
 @mixin media-xl {
     @media screen and (min-width: 1600px){
@@ -69,6 +64,7 @@
     
         .bio-container{
             padding: 1em;
+            position::first-letter;
             height: 100vh;
             display: flex;
             flex-flow: row nowrap;
@@ -88,25 +84,6 @@
 
     }
 
-    .projects{
-        padding: 3em!important;
-        display: grid!important;
-        grid-template-columns: repeat(3, 3fr);
-
-        .section-project{
-
-            text-align: center;
-
-            img{
-                width: 20vw!important;
-                height: 20vw!important;
-            }
-
-            button{
-                width: 30%!important;
-            }
-        }
-    }
 
     
 

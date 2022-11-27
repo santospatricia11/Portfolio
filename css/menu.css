@@ -5,6 +5,17 @@ header {
 
 
 }
+.main {
+    position:static;
+    justify-content: center;
+    z-index: 2;
+    width: 100%;
+
+
+}
+main .card-group{
+      position:static;
+}
 
 .menu-btn {
     position: absolute;

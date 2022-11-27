@@ -491,19 +491,20 @@ body .logo-container .second {
     flex-flow: column;
 }
 .card {
+    display: flex;
     position:-ms-page;
     display: block;
     text-align: center;
     padding: 5em;
 }
 @media screen and (min-width: 920px) {
-    main .card .card-img-top{
+    main .card .card-body{
        align-items: center;
        flex-direction: column;
        margin-top: auto;
     }
 
-    .menu-btn {
+    .card-title {
         visibility: hidden;
         height: 8%;
         width: 30%;
