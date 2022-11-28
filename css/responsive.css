@@ -1,40 +1,40 @@
-
 @mixin media-md {
-    @media screen and (min-width: 768px){
+    @media screen and (min-width: 768px) {
         @content
     }
 }
 
 
 @mixin media-xl {
-    @media screen and (min-width: 1600px){
+    @media screen and (min-width: 1600px) {
         @content
     }
 }
 
-@include media-md{
+@include media-md {
 
-    .logo-container{
+    .logo-container {
         z-index: 2;
         position: absolute;
         width: 30%;
     }
 
-    .menu-btn{
+    .menu-btn {
         visibility: hidden;
     }
 
-    header{
-        .navbar-container{
-            height: 5rem!important;
+    header {
+        .navbar-container {
+            height: 5rem !important;
         }
 
-        .nav{
+        .nav {
             visibility: visible;
             display: flex;
             align-items: center;
             width: 100%;
-            .menu-nav{
+
+            .menu-nav {
                 visibility: visible;
                 position: absolute;
                 right: 0;
@@ -45,52 +45,52 @@
                 width: 20%;
                 background-color: transparent;
                 text-align: right;
-    
-                menu-nav-item{
+
+                menu-nav-item {
                     transform: translateY(0);
                     vertical-align: middle;
                     display: inline;
                     font-size: 1em;
                 }
-    
-                
+
+
             }
         }
     }
 
 
-    .bio{
+    .bio {
         width: 100%;
-    
-        .bio-container{
+
+        .bio-container {
             padding: 1em;
-            position::first-letter;
+            position: :first-letter;
             height: 100vh;
             display: flex;
             flex-flow: row nowrap;
             align-items: center;
         }
-           
+
     }
 
-    .card{
-        padding: 3em!important;
-        display: grid!important;
+    .card {
+        padding: 3em !important;
+        display: grid !important;
         grid-template-columns: repeat(3, 1fr);
 
-        .desc-card-caption{
+        .desc-card-caption {
             font-size: 2em;
         }
 
     }
 
 
-    
 
-    footer{
+
+    footer {
         display: flex;
-        flex-direction: row!important;
-        justify-content: space-between!important;
+        flex-direction: row !important;
+        justify-content: space-between !important;
     }
 
 }
