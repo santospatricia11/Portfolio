@@ -5,16 +5,18 @@ header {
 
 
 }
+
 .main {
-    position:static;
+    position: static;
     justify-content: center;
     z-index: 2;
     width: 100%;
 
 
 }
-main .card-group{
-      position:static;
+
+main .card-group {
+    position: static;
 }
 
 .menu-btn {
@@ -64,13 +66,6 @@ main .card-group{
 
 
 }
-
-
-
-
-
-
-
 
 .nav {
 
