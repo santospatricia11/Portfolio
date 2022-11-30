@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family:  Arial, Helvetica, sans-serif;
 }
 .nav{
     display: flex;
@@ -40,9 +40,9 @@ nav ul li a{
     letter-spacing: 1px;
     transition: all 0.3s ease;
 }
-nav ul li a.active,
+nav ul li a.menu-nav-link,
 nav ul li a:hover{
-    background: #06f4f8;
+    
 }
 
 nav .menu-btn i{
@@ -75,7 +75,7 @@ nav .menu-btn i{
     nav ul li a {
         font-size: 23px;
     }
-    nav ul li a.active,
+    nav ul li a.menu-nav-link,
     nav ul li a:hover{
         background: none;
         color: #f88f06;

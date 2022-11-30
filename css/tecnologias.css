@@ -286,10 +286,6 @@ header .nav .menu-nav-item ul li a {}
     }
 }
 
-
-
-
-
 button {
     position: relative;
     padding: 1em;
@@ -479,38 +475,104 @@ body .logo-container .second {
     font-size: 20px;
     font-style: normal;
 }
+
 @mixin flex-justification {
     align-items: center;
     justify-content: center;
 }
-.main .card {
 
-    padding: 2em;
-    margin: 1em;
-    display: flex;
-    flex-flow: column;
-}
 .card {
+    width: 400px;
+    height: 350px;
+    background-color:cadetblue;
+    border-radius: 10px;
+    outline: 1px solid rgba(255, 255, 255, .5);
+    outline-offset: -8px;
+    box-shadow: 3px 3px 10px rgba(17, 65, 46, 0.1);
+    position: relative;
+    overflow: hidden;
+    grid-template-columns: 100px 100px 100px 100px;
     display: flex;
-    position:-ms-page;
-    display: block;
-    text-align: center;
-    padding: 5em;
+    flex-direction: column-reverse;
+    margin: 10px 20px 10px 20rem;
 }
+
+.card-title {
+    position: absolute;
+    left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    bottom: 15px;
+    font-size: 24px;
+    padding: 4px 10px;
+    text-shadow: 0 0 1px rgba(0, 0, 0, .5);
+    color: white;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+}
+    
+
 @media screen and (min-width: 920px) {
-    main .card .card-body{
-       align-items: center;
-       flex-direction: column;
-       margin-top: auto;
+    main .section{
+        padding: 20%;
+    }
     }
 
-    .card-title {
-        visibility: hidden;
-        height: 8%;
-        width: 30%;
+.card {
+    margin-left: auto;
+    perspective-origin: 0%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.card-text {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    text-align: justify;
+    grid-template-rows:max-content ;
+}
+
+.main .card .card-body {
+    display: block;
+    border-radius: 5px;
+    -ms-flex-flow: column wrap;
+
+
+}
+
+@media screen and (min-width: 920px) {
+    main .card .card-body {
+        align-items: center;
+        flex-direction: column;
+        margin-top: auto;
+    }
+
+
+
+    .titulo h2 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .titulo p {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+
+    @media screen and (min-width: 700px) {
+        .main .card .card-body {
+            align-items: center;
+            flex-direction: column;
+
+
+        }
+
     }
 
     header .navbar-container {
         height: 5rem !important;
     }
+
 }

@@ -8,7 +8,7 @@ header {
 
 header .navbar-container {
     height: 4rem;
-    position: absolute;
+    position: 2rem;
     top: 0;
     left: 0;
     width: 100vw;
@@ -53,7 +53,6 @@ nav ul li a.menu-nav-link {
     color: #138e8c;
 }
 
-header .nav .menu-nav-item ul li a {}
 
 .nav .menu-nav {
     display: -webkit-box;
@@ -190,7 +189,7 @@ header .nav .menu-nav-item ul li a {}
     color: #c9faf3;
     font-size: 5em;
     font-style: normal;
-    font-family: "Abel";
+    font-family:  Arial, Helvetica, sans-serif;
     font-style: normal;
 }
 
@@ -248,7 +247,7 @@ header .nav .menu-nav-item ul li a {}
         transform: translateY(0);
         vertical-align: middle;
         display: inline;
-        font-size: 1em;
+        font-size: 1px;
         justify-items: first baseline;
 
     }
@@ -336,26 +335,16 @@ button {
 
 .fill:hover:before {
     width: 100%;
-    height: 100%;
+    height: 0%;
     border: 2px solid #a4fdf3;
 }
 
-footer {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-flow: column;
-    flex-flow: column;
-    background-color: #038082;
-    padding: 2em;
-}
+
 
 footer .footer-title {
     font-size: 1.5em;
     color: #a4fdf3;
-    font-family: "Abel";
+    font-family:  Arial, Helvetica, sans-serif;
     font-style: normal;
 }
 
@@ -429,21 +418,12 @@ footer .footer-icons .social i {
     font-size: 30px;
 }
 
-* {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Fira Sans";
-    outline: none;
-    scroll-behavior: smooth;
-    font-style: italic;
-}
+
 
 body {
     background-color: #138e8c;
     color: white;
-    font-family: "Fira Sans";
+    font-family:  Arial, Helvetica, sans-serif;
     font-weight: 50;
     height: 100vh;
 }
@@ -451,7 +431,7 @@ body {
 body .subtitle {
     font-size: 3em;
     color: #a4fdf3;
-    font-family: "Abel";
+    font-family:  Arial, Helvetica, sans-serif;
     font-style: normal;
     padding: 0 1rem;
 }
@@ -467,7 +447,7 @@ body .logo-container {
 
 body .logo-container .logo {
     font-size: 30px;
-    font-family: "Abel";
+    font-family:  Arial, Helvetica, sans-serif;
     color: #a4fdf3;
     padding-right: 5px;
     font-style: normal;
@@ -496,6 +476,18 @@ body .logo-container .second {
     text-align: center;
     padding: 5em;
 }
+.card .card-img-top{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card .card-text{
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
+    text-align: justify;
+    grid-template-rows:max-content ;
+}
 @media screen and (min-width: 920px) {
     main .card .card-img-top{
        align-items: center;
@@ -512,4 +504,11 @@ body .logo-container .second {
     header .navbar-container {
         height: 5rem !important;
     }
+
+    @media screen and (min-width: 920px) {
+        main .section{
+            padding: 20%;
+        }
+        }
+    
 }
