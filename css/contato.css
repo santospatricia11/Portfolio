@@ -7,9 +7,9 @@
     align-items: center;
     justify-content: center;
   }
-.contato-left {
+  .contato-left {
     width: 35%;
-    background-image: url(/img/planodefundo.png);
+    background-image: url(/img/contato.jpg);
     
     background-size: cover;
   }

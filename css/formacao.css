@@ -21,9 +21,9 @@
     position: absolute;
     top: -2.5rem;
     left: 2rem;
-    background: #6a3093;
-    background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
-    background: linear-gradient(to left, #a044ff, #6a3093);
+    background: #02966a;
+    background: -webkit-linear-gradient(to right, #02966a, #3cb371);
+    background: linear-gradient(to left, #02966a, #15a97d);
     padding: 0 3rem;
     color: #fff;
     font-family: var(--font-primary);
