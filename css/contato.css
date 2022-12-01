@@ -2,14 +2,14 @@
 .sessao-contato {
     width: 100%;
     height: 100vh;
-    background-color: #272727;
+    background-color:cadetblue;
     display: flex;
     align-items: center;
     justify-content: center;
   }
   .contato-left {
     width: 35%;
-    background-image: url(/img/contato.jpg);
+    background-image: url(/img/tecnologiaT.jpg);
     
     background-size: cover;
   }
