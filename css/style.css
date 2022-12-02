@@ -207,32 +207,7 @@ header {
   color: #02966a;
 }
 
-.social-media {
-  position: absolute;
-  bottom: 2rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
-.social-media i {
-  background-color: #02966a;
-  color: rgba(255, 255, 255, 1);
-  height: 2.5rem;
-  width: 2.5rem;
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 50%;
-  transition: background-color 1s;
-}
-
-.social-media i:hover {
-  background-color: #03bb85;
-}
-
-/*  section    header */
+*  section    header */
 .sessao-header {
   display: flex;
   align-items: center;
