@@ -55,6 +55,7 @@
   .tecnologia-text {
     font-family: var(--font-secundary);
     margin-top: 1rem;
+    text-align:justify;
   }
   
   .tecnologia-img-wrapper {
@@ -62,6 +63,7 @@
     grid-row: 2 / 6;
     width: 80%;
     height: 80%;
+    display: flex;
   }
   
   .tecnologia-img-wrapper img {

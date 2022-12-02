@@ -105,8 +105,7 @@ header {
   opacity: 0.3;
   animation: zoom 25s;
 }
-/* animação utilizando keyframes*/
-
+/* animação utilizando keyframe*/
 @keyframes zoom {
   0% {
     transform: scale(1.3);
