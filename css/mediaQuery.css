@@ -1,0 +1,72 @@
+@media (max-width: 1280px) {
+    .head-txt {
+      font-size: 5.4rem;
+    }
+  
+    .default-list li {
+      font-size: 1.5rem !important;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .nav-container {
+      height: 5vh;
+    }
+  
+    .nav-container__list {
+      display: none;
+    }
+  
+    .nav-container__hamburguer {
+      display: flex;
+    }
+  
+    .container {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 3rem;
+      padding: 2rem;
+      height: 85vh !important;
+    }
+  
+    .container-2 {
+      height: 100rem !important;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    section {
+      text-align: center;
+    }
+  
+    .footer-content {
+      position: fixed;
+      bottom: 0;
+      height: 5vh;
+    }
+  
+    .footer-content__icon-link {
+      height: 62%;
+    }
+  
+    .articles {
+      flex-direction: column;
+      gap: 3rem !important  ;
+    }
+  
+    .articles__item {
+      gap: 0.5rem !important;
+    }
+  
+    .articles__item p {
+      font-size: 2rem !important;
+    }
+  
+    .articles__item img {
+      width: 15rem !important;
+      height: 12rem !important;
+    }
+  }
+  

@@ -5,12 +5,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    
+    <link rel=”styleSheet” href=”estilo.css” media=”All and (not color)” />
+    <link rel=”styleSheet” href=”estilo.css” media=”Only screen and (color)” />
+    <link rel="stylesheet" href="estilo.css" media="screen and (max-width: 480px)" />
+    <link rel="stylesheet" href="/css/mediaQuery.css">
     <link rel="stylesheet" href="/css/style.css" />
     <link rel="stylesheet" href="/css/sobre.css">
     <link rel="stylesheet" href="/css/contato.css">
     <link rel="stylesheet" href="/css/formacao.css">
     <link rel="stylesheet" href="/css/tecnologias.css">
+    <link rel="stylesheet" href="/css/video.css">
     <title>Portfólio</title>
 
 </head>
@@ -26,7 +31,7 @@
             <span>fechar</span>
         </div>
 
-        <header id="home">
+        <header class="sessao-header"  id="home">
             <div class="img-wrapper">
                 <img src="/img/Female-Developer_rotated.jpg" alt="">
             </div>
@@ -34,21 +39,22 @@
                 <h1>Futura Desenvolvedora <br> Front End</h1>
                 <p>Patrícia dos Santos Pereira</p>
 
-                <a href="/sobre"><button class="btn">Saiba mais</button></a>
+                <a href="#video"><button class="btn">Saiba mais</button></a>
             </div>
             <!-- menu lateral semantico faz mais sentido,o uso do aside em vez de um div ou section-->
             <aside class="sidebar">
 
-                <nav>
+                <nav  class="nav-container">
 
                     <ul class="menu">
 
                         <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
                         <li class="menu-item"><a href="#sobre" class="menu-link">Sobre</a></li>
-                        <li class="menu-item"><a href="#tecnologias" class="menu-link">Tecnologias</a></li>
+                        <li class="menu-item"><a href="#tecnologia" class="menu-link">Tecnologias</a></li>
                         <li class="menu-item"><a href="#projetos" class="menu-link">Portfólio</a></li>
                         <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
                         <li class="menu-item"><a href="#formacao" class="menu-link">Formação</a></li>
+                        <li class="menu-item"><a href="#video" class="menu-link">Vídeo</a></li>
                     </ul>
                 </nav>
                 <div class="social-media">
@@ -274,6 +280,27 @@
                 </div>
             </section>
 
+
+            <section class="sessao-video" id="video">
+                <div class="video-wrapper">
+                    <h1>Vídeo</h1>
+                    <form>
+                      
+                            <div>
+
+                               <video width="320" height="240" controls >
+                                    
+                                    <source src="/midia/SobreMe.mp4" type="video/mp4">
+                               </video>
+                            </div>
+
+                        </div>
+
+
+                    </form>
+                </div>
+            </section>
+
             <footer>
                 <div class="footer-content">
                     <p>
@@ -299,3 +326,4 @@
 <script src="/js/script.js"></script>
 
 </html>
+
