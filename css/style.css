@@ -461,10 +461,30 @@ footer {
   display: 100vw;
 }
 
-@media only screen and (min-width: 900px) and (max-width:1000) {
+@media only screen and (min-width: 600px) and (max-width:600) {
   .container {
     padding: 2rem;
     display: 100vw;
 
   }
 }
+
+/* * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+} */
+/* 
+body {
+  margin: 0;
+  padding: 0;
+  display: 100%;
+}
+.container {
+  margin: 0;
+  width: 100%;
+  
+  
+} */
+
