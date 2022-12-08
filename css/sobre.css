@@ -1,4 +1,4 @@
-.sessao-sobre{
+.sessao-sobre {
   width: 100%;
   height: 100vh;
 
@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.sobre-wrapper{
+.sobre-wrapper {
   width: 60%;
   height: 80%;
   background-color: #ffffff99;
@@ -17,7 +17,7 @@
   position: relative;
 }
 
-.sessao-sobre h1{
+.sessao-sobre h1 {
   position: absolute;
   top: -2.2rem;
   left: 2rem;
@@ -33,7 +33,7 @@
   border-radius: 10px;
 }
 
-.sessao-sobre form{
+.sessao-sobre form {
   margin: 4rem;
   display: grid;
   grid-template-columns: auto 1fr;
@@ -41,16 +41,40 @@
   row-gap: 2rem;
 }
 
-.sessao-sobre label{
+.sessao-sobre label {
   font-family: var(--font-action);
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 
 
-.btn-sobre{
+.btn-sobre {
   text-transform: uppercase;
   padding: 2rem;
   cursor: pointer;
   grid-column: 2;
+}
+
+@media (min-width:400px) {
+  label {
+    align-items: stretch;
+    paint-order: normal;
+    justify-items: left;
+    display: flex;
+    text-align: justify;
+  }
+
+  .sobre-wrapper {
+    align-items: center;
+
+  }
+
+  h1 {
+    font-size: 1vw;
+  }
+
+  form {
+    align-items: center;
+  }
+
 }
