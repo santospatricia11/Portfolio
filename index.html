@@ -1,290 +1,81 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-  
-    <link rel="stylesheet" href="/css/mediaQuery.css">
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/sobre.css">
-    <link rel="stylesheet" href="/css/contato.css">
-    <link rel="stylesheet" href="/css/formacao.css">
-    <link rel="stylesheet" href="/css/tecnologia.css">
-    <link rel="stylesheet" href="/css/video.css">
-    <link rel="stylesheet" href="/css/mensagem.css">
-    <title>Portfólio</title>
-
-</head>
-
-<body>
-
-    <div class="container">
-
-        <div class="hamburguer">
-            <div class="line" id="line1"></div>
-            <div class="line" id="line2"></div>
-            <div class="line" id="line3"></div>
-            <span>fechar</span>
-        </div>
-
-        <header class="sessao-header" id="home">
-            <div class="img-wrapper">
-                <img src="/img/Female-Developer_rotated.jpg" alt="">
-            </div>
-            <div class="banner">
-                <h1>Futura Desenvolvedora <br> Front End</h1>
-                <p>Patrícia dos Santos Pereira</p>
-
-                <a href="#video"><button class="btn">Saiba mais</button></a>
-            </div>
-            <!-- menu lateral semantico faz mais sentido,o uso do aside em vez de um div ou section-->
-            <aside class="sidebar">
-
-                <nav class="nav-container">
-
-                    <ul class="menu">
-
-                        <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
-                        <li class="menu-item"><a href="#sobre" class="menu-link">Sobre</a></li>
-                        <li class="menu-item"><a href="#tecnologias" class="menu-link">Tecnologias</a></li>
-                        <li class="menu-item"><a href="#projetos" class="menu-link">Portfólio</a></li>
-                        <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
-                        <li class="menu-item"><a href="#formacao" class="menu-link">Formação</a></li>
-                        <li class="menu-item"><a href="#video" class="menu-link">Vídeo</a></li>
-                    </ul>
-                </nav>
-                <div class="social-media">
-                    <a href="https://www.linkedin.com/in/patr%C3%ADcia-santos11/overlay/contact-info/"><i
-                            class="fab fa-linkedin"></i></a>
-                    <a href="https://github.com/santospatricia11"><i class="fab fa-github-alt"></i></a>
-                    <a href="https://twitter.com/i/flow/lite/verify_password"><i class="fab fa-twitter"></i></a>
-                </div>
-            </aside>
-        </header>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
-        <section class="sessao-sobre" id="sobre">
-            <div class="sobre-wrapper">
-                <h1>Sobre Me</h1>
-                <form>
-                    </label>
+        <link rel="stylesheet" href="/css/style.css" />
+        <link rel="stylesheet" href="/css/sobre.css">
+        <link rel="stylesheet" href="/css/contato.css">
+        <link rel="stylesheet" href="/css/formacao.css">
+        <link rel="stylesheet" href="/css/tecnologia.css">
+        <link rel="stylesheet" href="/css/video.css">
+        <link rel="stylesheet" href="/css/mensagem.css">
+        <title>Portfólio</title>
 
+    </head>
 
-                    <label>Meu nome é Patrícia dos Santos Pereira e atualmente estou cursando
-                        Análise e Desenvolvimento de Sistemas no campus IFPB Campus Monteiro.
-                        Sou paraibana(natural de Serra Branca) e atualmente resido em Monteiro.</label>
-                    <div class="group-layout">
-                        <div>
+    <body>
 
-                            <label for="layout-sim"></label>
-                        </div>
+        <div class="container">
 
-                    </div>
-
-
-                </form>
-            </div>
-        </section>
-
-        <div class="sessao-tecnologias" id="tecnologias">
-            <div class="sessao-header">
-                <h1>Tecnologias</h1>
-            </div>
-            <div class="tecnologias">
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="/img/react.png" alt="imagem react" />
-                    </div>
-                    <div class="card-info">
-                        <h2>React</h2>
-                       
-                        <p>Uma biblioteca do JavaScript para criar interfaces para uruários com mais 
-                            facilidade com o uso de componentes.
-                        </p>
-                        <a href="https://pt-br.reactjs.org/"><button class="btn">Sobre
-                                </button></a>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="img/html.png" alt="imagem html" />
-                    </div>
-                    <div class="card-info">
-                       
-                        <h2>HTML</h2>
-                        <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web.
-                            Documentos HTML podem ser interpretados por navegadores</p>
-                        <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><button
-                                class="btn">Sobre</button></a>
-
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="img/spring.png" alt="imagem do Spring Boot" />
-                    </div>
-                    <div class="card-info">
-                      
-                        <h2>Spring Boot - Java</h2>
-                        <p>O Spring Boot facilita a criação de aplicativos autônomos baseados em 
-                            Spring de nível de produção que você pode "simplesmente executar".</p>
-                        <a href="https://spring.io/projects/spring-boot"><button class="btn">
-                                Sobre</button></a>
-                    </div>
-                </div>
+            <div class="hamburguer">
+                <div class="line" id="line1"></div>
+                <div class="line" id="line2"></div>
+                <div class="line" id="line3"></div>
+                <span>fechar</span>
             </div>
 
-
-            <div class="tecnologias">
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="/img/git.png" alt="imagem github" />
-                    </div>
-                    <div class="card-info">
-                        <h2>Git Hub</h2>
-                       
-                        <p>O git onde fazeos todo o versionamento do código em nossa máquina, já
-                            o github onde guadamos nosso repositorios em nuvem.
-                        </p>
-                        <a href="https://github.com/"><button class="btn">Sobre
-                                </button></a>
-
-                    </div>
+            <header class="sessao-header" id="home">
+                <div class="img-wrapper">
+                    <img src="/img/Female-Developer_rotated.jpg" alt="">
                 </div>
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="img/css.png" alt="imagem html" />
-                    </div>
-                    <div class="card-info">
-                       
-                        <h2> CSS</h2>
-                        <p>Criação de um sistema para cadastro de produtos e dados de clientes
-                            Os dados de clientes, endereços e produtos devem estar devidamente estruturados
-                            Dados salvos no localstorage</p>
-                        <a href="https://github.com/santospatricia11/SegundoDesafioHiringCoders.git"><button
-                                class="btn">Sobre</button></a>
+                <div class="banner">
+                    <h1>Futura Desenvolvedora <br> Front End</h1>
+                    <p>Patrícia dos Santos Pereira</p>
 
-                    </div>
+                    <a href="#video"><button class="btn">Saiba mais</button></a>
                 </div>
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="img/mysql.png" alt="imagem do MySQL" />
-                    </div>
-                    <div class="card-info">
-                      
-                        <h2>MySQL</h2>
-                        <p>O MySQL é um sistema de gerenciamento de banco de dados, 
-                            que utiliza a linguagem SQL como interface. </p>
-                        <a href="https://www.mysql.com/"><button class="btn">
-                                Sobre</button></a>
-                    </div>
-                </div>
-            </div>
+                <!-- menu lateral semantico faz mais sentido,o uso do aside em vez de uma div ou section-->
+                <aside class="sidebar">
 
-        </section>
+                    <nav class="nav-container">
 
-       
-        <!---Projetos-->
-        <div class="sessao-projetos" id="projetos">
-            <div class="sessao-header">
-                <h1>Projetos</h1>
-            </div>
-            <div class="projetos">
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="/img/Falacampus-novo.png" alt="imagem do projeto FalaCampus" />
-                    </div>
-                    <div class="card-info">
-                        <h2>Fala Campus</h2>
-                        <h3>React</h3>
-                        <p>Sistema de sugestões, críticas e elogios Fala Campus, voltado para a comunidade
-                            acadêmica do Instituto Federal da Paraíba, Campus Monteiro - PB.
-                            Projeto apresentado na Disciplina de Desenvolvimento de Aplicações Corporativas.
-                        </p>
-                        <a href="https://github.com/moreiranat/falacampus-frontend.git"><button class="btn">Ver
-                                Projeto</button></a>
+                        <ul class="menu">
 
+                            <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                            <li class="menu-item"><a href="#sobre" class="menu-link">Sobre</a></li>
+                            <li class="menu-item"><a href="#tecnologias" class="menu-link">Tecnologias</a></li>
+                            <li class="menu-item"><a href="#projetos" class="menu-link">Portfólio</a></li>
+                            <li class="menu-item"><a href="#contato" class="menu-link">Contato</a></li>
+                            <li class="menu-item"><a href="#formacao" class="menu-link">Formação</a></li>
+                            <li class="menu-item"><a href="#video" class="menu-link">Vídeo</a></li>
+                        </ul>
+                    </nav>
+                    <div class="social-media">
+                        <a href="https://www.linkedin.com/in/patr%C3%ADcia-santos11/overlay/contact-info/"><i
+                                class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/santospatricia11"><i class="fab fa-github-alt"></i></a>
+                        <a href="https://twitter.com/i/flow/lite/verify_password"><i class="fab fa-twitter"></i></a>
                     </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="img/schoolsearc.png" alt="imagem do projeto Fala Campus" />
-                    </div>
-                    <div class="card-info">
-                        <h2>Gestão de Projetos</h2>
-                        <h3>HTML, CSS</h3>
-                        <p>Criação de um sistema para cadastro de produtos e dados de clientes
-                            Os dados de clientes, endereços e produtos devem estar devidamente estruturados
-                            Dados salvos no localstorage</p>
-                        <a href="https://github.com/santospatricia11/SegundoDesafioHiringCoders.git"><button
-                                class="btn">Ver Projeto</button></a>
+                </aside>
+            </header>
 
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="card-img-wrapper">
-                        <img src="img/gestaodeprodutos.png" alt="imagem do projeto Gestão de Produtos" />
-                    </div>
-                    <div class="card-info">
-                        <h2>School Search</h2>
-                        <h3>Spring Boot - Java</h3>
-                        <p>O School Search tem como propósito de simplificar a
-                            busca de escolas para pais e/ou responsáveis de alunos.
-                            A ideia é de uma plataforma em que diversas escolas possam fazer suas divulgações,
-                            como forma de atrair alunos e por tanto ter maior número de matriculados.
-                            Nele é possível fazer buscas nas proximidades de sua localização.</p>
-                        <a href="https://github.com/santospatricia11/SchoolSearch.git"><button class="btn">Ver
-                                Projeto</button></a>
-                    </div>
-                </div>
-            </div>
 
-        </section>
-
-         <section class="sessao-contato" id="contato">
-
-                <div class="contato-wrapper">
-
-                    <div class="contato-left"></div>
-                    <div class="contato-right">
-                        <h1>Contato</h1>
-                        <form>
-                            <div class="input-group">
-                                <input type="text" class="field" id="nome">
-                                <label for="nome" class="field-label">Nome</label>
-                            </div>
-                            <div class="input-group">
-                                <input type="text" class="field" id="email">
-                                <label for="email" class="field-label">E-mail</label>
-                            </div>
-                            <div class="input-group">
-                                <textarea class="field" id="mensagem"></textarea>
-                                <label for="mensagem" class="field-label">Mensagem</label>
-                            </div>
-                            <button type="submit" class="btn btn-submit">Enviar</button>
-                        </form>
-                    </div>
-                </div>
-            </section>
- 
-          
-        <section class="sessao-formacao" id="formacao">
-                <div class="formacao-wrapper">
-                    <h1>Formação</h1>
+            <section class="sessao-sobre" id="sobre">
+                <div class="sobre-wrapper">
+                    <h1>Sobre Me</h1>
                     <form>
-                        <label for="qtde">Cursos</label>
-
-                        <label for="js">Análise e Desenvolvimento de Sistemas - Até o presente
-
-
                         </label>
 
-                        <label>Tecnico</label>
-                        <label>Tecnico em Manutenção em Informática(IFPB)</label>
+
+                        <label>Meu nome é Patrícia dos Santos Pereira e atualmente estou cursando
+                            Análise e Desenvolvimento de Sistemas no campus IFPB Campus Monteiro.
+                            Sou paraibana(natural de Serra Branca) e atualmente resido em Monteiro.</label>
                         <div class="group-layout">
                             <div>
 
@@ -297,76 +88,279 @@
                     </form>
                 </div>
             </section>
-            <section class="sessao-mensagens" id="mensagem">
 
-                <div class="mensagem-wrapper">
-    
-                    <div class="mensagem-left"></div>
-                    <div class="mensagem-right">
-                        <h1>Mensagem</h1>
-                        <form>
-                            <div class="input-group">
-                                <input type="text" class="field" id="nome">
-                                <label for="nome" class="field-label">Nome</label>
-                            </div>
-                            <div class="input-group">
-                                <input type="text" class="field" id="email">
-                                <label for="email" class="field-label">E-mail</label>
-                            </div>
-                            <div class="input-group">
-                                <textarea class="field" id="mensagem"></textarea>
-                                <label for="mensagem" class="field-label">Mensagem</label>
-                            </div>
-                            <button type="submit" class="btn btn-submit">Ver</button>
-                        </form>
+            <div class="sessao-tecnologias" id="tecnologias">
+                <div class="sessao-header">
+                    <h1>Tecnologias</h1>
+                </div>
+                <div class="tecnologias">
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="/img/react.png" alt="imagem react" />
+                        </div>
+                        <div class="card-info">
+                            <h2>React</h2>
+
+                            <p>Uma biblioteca do JavaScript para criar interfaces para uruários com mais
+                                facilidade com o uso de componentes.
+                            </p>
+                            <a href="https://pt-br.reactjs.org/"><button class="btn">Sobre
+                                </button></a>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="img/html.png" alt="imagem html" />
+                        </div>
+                        <div class="card-info">
+
+                            <h2>HTML</h2>
+                            <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web.
+                                Documentos HTML podem ser interpretados por navegadores</p>
+                            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML"><button
+                                    class="btn">Sobre</button></a>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="img/spring.png" alt="imagem do Spring Boot" />
+                        </div>
+                        <div class="card-info">
+
+                            <h2>Spring Boot - Java</h2>
+                            <p>O Spring Boot facilita a criação de aplicativos autônomos baseados em
+                                Spring de nível de produção que você pode "simplesmente executar".</p>
+                            <a href="https://spring.io/projects/spring-boot"><button class="btn">
+                                    Sobre</button></a>
+                        </div>
                     </div>
                 </div>
-            </section>
 
 
-            <section class="sessao-video" id="video">
-                <div class="video-wrapper">
-                    <h1>Vídeo</h1>
-                    <form>
+                <div class="tecnologias">
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="/img/git.png" alt="imagem github" />
+                        </div>
+                        <div class="card-info">
+                            <h2>Git Hub</h2>
 
-                        <div>
+                            <p>O git onde fazeos todo o versionamento do código em nossa máquina, já
+                                o github onde guadamos nosso repositorios em nuvem.
+                            </p>
+                            <a href="https://github.com/"><button class="btn">Sobre
+                                </button></a>
 
-                            <video width="320" height="240" controls>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="img/css.png" alt="imagem html" />
+                        </div>
+                        <div class="card-info">
 
-                                <source src="/midia/SobreMe.mp4" type="video/mp4">
-                            </video>
+                            <h2> CSS</h2>
+                            <p>Criação de um sistema para cadastro de produtos e dados de clientes
+                                Os dados de clientes, endereços e produtos devem estar devidamente estruturados
+                                Dados salvos no localstorage</p>
+                            <a href="https://github.com/santospatricia11/SegundoDesafioHiringCoders.git"><button
+                                    class="btn">Sobre</button></a>
+
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-img-wrapper">
+                            <img src="img/mysql.png" alt="imagem do MySQL" />
+                        </div>
+                        <div class="card-info">
+
+                            <h2>MySQL</h2>
+                            <p>O MySQL é um sistema de gerenciamento de banco de dados,
+                                que utiliza a linguagem SQL como interface. </p>
+                            <a href="https://www.mysql.com/"><button class="btn">
+                                    Sobre</button></a>
+                        </div>
+                    </div>
+                </div>
+
+                </section>
+
+
+                <!---Projetos-->
+                <div class="sessao-projetos" id="projetos">
+                    <div class="sessao-header">
+                        <h1>Projetos</h1>
+                    </div>
+                    <div class="projetos">
+                        <div class="card">
+                            <div class="card-img-wrapper">
+                                <img src="/img/Falacampus-novo.png" alt="imagem do projeto FalaCampus" />
+                            </div>
+                            <div class="card-info">
+                                <h2>Fala Campus</h2>
+                                <h3>React</h3>
+                                <p>Sistema de sugestões, críticas e elogios Fala Campus, voltado para a comunidade
+                                    acadêmica do Instituto Federal da Paraíba, Campus Monteiro - PB.
+                                    Projeto apresentado na Disciplina de Desenvolvimento de Aplicações Corporativas.
+                                </p>
+                                <a href="https://github.com/moreiranat/falacampus-frontend.git"><button class="btn">Ver
+                                        Projeto</button></a>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img-wrapper">
+                                <img src="img/schoolsearc.png" alt="imagem do projeto Fala Campus" />
+                            </div>
+                            <div class="card-info">
+                                <h2>Gestão de Projetos</h2>
+                                <h3>HTML, CSS</h3>
+                                <p>Criação de um sistema para cadastro de produtos e dados de clientes
+                                    Os dados de clientes, endereços e produtos devem estar devidamente estruturados
+                                    Dados salvos no localstorage</p>
+                                <a href="https://github.com/santospatricia11/SegundoDesafioHiringCoders.git"><button
+                                        class="btn">Ver Projeto</button></a>
+
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-img-wrapper">
+                                <img src="img/gestaodeprodutos.png" alt="imagem do projeto Gestão de Produtos" />
+                            </div>
+                            <div class="card-info">
+                                <h2>School Search</h2>
+                                <h3>Spring Boot - Java</h3>
+                                <p>O School Search tem como propósito de simplificar a
+                                    busca de escolas para pais e/ou responsáveis de alunos.
+                                    A ideia é de uma plataforma em que diversas escolas possam fazer suas divulgações,
+                                    como forma de atrair alunos e por tanto ter maior número de matriculados.
+                                    Nele é possível fazer buscas nas proximidades de sua localização.</p>
+                                <a href="https://github.com/santospatricia11/SchoolSearch.git"><button class="btn">Ver
+                                        Projeto</button></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    </section>
+
+                    <section class="sessao-contato" id="contato">
+
+                        <div class="contato-wrapper">
+
+                            <div class="contato-left"></div>
+                            <div class="contato-right">
+                                <h1>Contato</h1>
+                                <form id="contato-form">
+                                    <div class="input-group">
+                                        <input type="text" class="field" id="nome_usuario">
+                                        <label for="nome" class="field-label">Nome</label>
+                                    </div>
+                                    <div class="input-group">
+                                        <input type="text" class="field" id="email_usuario">
+                                        <label for="email" class="field-label">E-mail</label>
+                                    </div>
+                                    <div class="input-group">
+                                        <textarea class="field" id="mensagem_usuario"></textarea>
+                                        <label for="mensagem" class="field-label">Mensagem</label>
+                                    </div>
+                                    <input type="submit" value="salvar" class="btn btn-submit">
+
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="sessao-formacao" id="formacao">
+                        <div class="formacao-wrapper">
+                            <h1>Formação</h1>
+                            <form>
+                                <label for="qtde">Cursos</label>
+
+                                <label for="js">Análise e Desenvolvimento de Sistemas - Até o presente
+
+
+                                </label>
+
+                                <label>Tecnico</label>
+                                <label>Tecnico em Manutenção em Informática(IFPB)</label>
+                                <div class="group-layout">
+                                    <div>
+
+                                        <label for="layout-sim"></label>
+                                    </div>
+
+                                </div>
+
+
+                            </form>
+                        </div>
+                    </section>
+                    <section class="sessao-mensagens" id="mensagem">
+
+                        <div class="mensagem-wrapper">
+
+                            <div class="mensagem-left"></div>
+                            <div class="mensagem-right">
+                                <h1>Mensagem</h1>
+                                <form>
+                                    <div class="input-group">
+                                        <textarea class="field" id="mensagem_usuario"></textarea>
+                                        <label for="mensagem" class="field-label">Mensagem</label>
+                                    </div>
+                                    <input type="submit" value="apagar" class="btn btn-submit">
+                                </form>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <section class="sessao-video" id="video">
+                        <div class="video-wrapper">
+                            <h1>Vídeo</h1>
+                            <form>
+
+                                <div>
+
+                                    <video width="320" height="240" controls>
+
+                                        <source src="/midia/SobreMe.mp4" type="video/mp4">
+                                    </video>
+                                </div>
+
                         </div>
 
-                </div>
 
-
-                </form>
-        </div>
-        </section>
-        <!----->
-        <footer>
-            <div class="footer-content">
-                <p>
-                    Copyright &copy; 2022, Desenvolvimento por Patrícia - Todos os diretos reservados
-                </p>
-                <div class="social-list">
-                    <ul>
-                        <li><a href="https://twitter.com/i/flow/lite/verify_password"><i class="fab fa-twitch"></i></a>
-                        </li>
-                        <li><a href="https://www.linkedin.com/in/patr%C3%ADcia-santos11/"><i
-                                    class="fab fa-linkedin"></i></a></li>
-                        <li><a href="https://github.com/santospatricia11"><i class="fab fa-github"></i></a></li>
-                    </ul>
+                        </form>
                 </div>
+                </section>
+                <!----->
+                <footer>
+                    <div class="footer-content">
+                        <p>
+                            Copyright &copy; 2022, Desenvolvimento por Patrícia - Todos os diretos reservados
+                        </p>
+                        <div class="social-list">
+                            <ul>
+                                <li><a href="https://twitter.com/i/flow/lite/verify_password"><i
+                                            class="fab fa-twitch"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/patr%C3%ADcia-santos11/"><i
+                                            class="fab fa-linkedin"></i></a></li>
+                                <li><a href="https://github.com/santospatricia11"><i class="fab fa-github"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </footer>
+                <a href="#home" id="link-topo">
+                    <i class="fas fa-arrow-up"></i>
+                </a>
             </div>
-        </footer>
-        <a href="#home" id="link-topo">
-            <i class="fas fa-arrow-up"></i>
-        </a>
-    </div>
-    
-</body>
 
-<script src="/js/script.js"></script>
+    </body>
+    <script src="/js/mensagem.js"></script>
+    <script src="/js/script.js"></script>
 
 </html>
