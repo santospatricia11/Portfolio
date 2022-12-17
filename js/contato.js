@@ -7,7 +7,7 @@ const closeModal = () => {
   clearFields();
   document.getElementById("modal").classList.remove("active");
 };
-
+//transformando o ojeto em uma array de string
 const getLocalStorage = () =>
   JSON.parse(localStorage.getItem("db_contato")) ?? [];
 const setLocalStorage = (dbContato) =>
@@ -52,7 +52,7 @@ const saveContato = () => {
       nome: document.getElementById("nome").value,
       email: document.getElementById("email").value,
       celular: document.getElementById("celular").value,
-      cidade: document.getElementById("cidade").value,
+      mensagem: document.getElementById("mensagem").value,
     };
     const index = document.getElementById("nome").dataset.index;
     if (index == "new") {
@@ -73,7 +73,7 @@ const createRow = (contato, index) => {
         <td>${contato.nome}</td>
         <td>${contato.email}</td>
         <td>${contato.celular}</td>
-        <td>${contato.cidade}</td>
+        <td>${contato.mesagem}</td>
         <td>
             <button type="button" class="button green" id="edit-${index}">Editar</button>
             <button type="button" class="button red" id="delete-${index}" >Excluir</button>
@@ -97,7 +97,7 @@ const fillFields = (contato) => {
   document.getElementById("nome").value = contato.nome;
   document.getElementById("email").value = contato.email;
   document.getElementById("celular").value = contato.celular;
-  document.getElementById("cidade").value = contato.cidade;
+  document.getElementById("mensagem").value = contato.mensagem;
   document.getElementById("nome").dataset.index = contato.index;
 };
 
