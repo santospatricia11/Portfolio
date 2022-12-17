@@ -220,6 +220,35 @@ header {
   margin-bottom: 1.5rem;
 }
 
+.sessao-header .p {
+  color: #15a97d;
+}
+
+.social-media {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-media i {
+  background-color: #85e38d;
+  color: rgba(255, 255, 255, 1);
+  height: 2.5rem;
+  width: 2.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: background-color 1s;
+}
+
+.social-media i:hover {
+  background-color: hsl(142, 100%, 63%);
+}
+
 .projetos {
   display: flex;
   justify-content: space-evenly;
@@ -286,7 +315,26 @@ header {
   margin-bottom: 2rem;
 }
 
+/* text-transform: uppercase;*/
+section {
+  justify-content: flex-start;
+}
+
+.button {
+  border: 1px solid;
+  padding: 11px 21px;
+  vertical-align: middle;
+  background: #2D888F;
+  color: white;
+  border-radius: 6px;
+  font-size: 20px;
+  font-family: helvetica, serif;
+  text-decoration: none;
+}
+
 .btn {
+  display: inline-block;
+
   background: #02966a;
   background: -webkit-linear-gradient(to right, #02966a, #3cb371);
   background: linear-gradient(to left, #02966a, #15a97d);
@@ -351,15 +399,15 @@ header {
 }
 
 .btn-submit {
-  font-size: 1.2rem;
-  text-transform: uppercase;
   width: 80%;
   height: 2.5rem;
   margin-top: 1rem;
+  position: -webkit-sticky;
   letter-spacing: 0.2rem;
   cursor: pointer;
   text-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
   box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.3);
+
 }
 
 footer {
@@ -372,7 +420,7 @@ footer {
 }
 
 .footer-content {
-  width: 60%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
@@ -380,12 +428,12 @@ footer {
 .footer-content p {
   font-family: var(--font-secundary);
   color: #a7a7a7;
-  font-size: 1.2rem;
+  font-size: 5rem;
 }
 
 .social-list a {
   margin: 0 2rem;
-  color: #a7a7a7;
+  color: #089e4b;
   font-size: 1.3rem;
 }
 
@@ -414,6 +462,28 @@ footer {
   padding: 2rem;
   display: 100vw;
 }
+
+footer {
+  width: 100%;
+  height: 50%;
+  background-color: #17181b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content p {
+  font-family: var(--font-secundary);
+  color: #a7a7a7;
+  font-size: 1.2rem;
+}
+
 
 @media only screen and (min-width: 600px) and (max-width: 600) {
   .container {

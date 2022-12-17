@@ -1,16 +1,14 @@
 .sessao-sobre {
-  width: 100%;
-  height: 100%;
-
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 4rem;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
 }
 
 .sobre-wrapper {
   width: 100%;
-  height: 100%;
+  height: 50vw;
   background-color: #ffffff99;
   border-radius: 10px;
   box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
@@ -43,7 +41,7 @@
 
 .sessao-sobre label {
   font-family: var(--font-action);
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 
@@ -62,9 +60,10 @@
     align-items: center;
 
   }
-  .sessao-sobre{
+
+  .sessao-sobre {
     width: 100%;
-    height: 100%;
+    height: 40%;
   }
 
   h1 {
