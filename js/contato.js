@@ -73,7 +73,7 @@ const createRow = (contato, index) => {
         <td>${contato.nome}</td>
         <td>${contato.email}</td>
         <td>${contato.celular}</td>
-        <td>${contato.mesagem}</td>
+        <td>${contato.mensagem}</td>
         <td>
             <button type="button" class="button green" id="edit-${index}">Editar</button>
             <button type="button" class="button red" id="delete-${index}" >Excluir</button>
