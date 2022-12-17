@@ -1,5 +1,5 @@
 "use strict";
-
+//inicio
 const openModal = () =>
   document.getElementById("modal").classList.add("active");
 
@@ -13,7 +13,6 @@ const getLocalStorage = () =>
 const setLocalStorage = (dbContato) =>
   localStorage.setItem("db_contato", JSON.stringify(dbContato));
 
-
 const deleteContato = (index) => {
   const dbContato = readContato();
   dbContato.splice(index, 1);
@@ -21,7 +20,7 @@ const deleteContato = (index) => {
 };
 
 const updateContato = (index, contato) => {
-  const dbContato= readContato();
+  const dbContato = readContato();
   dbContato[index] = contato;
   setLocalStorage(dbContato);
 };
