@@ -346,7 +346,7 @@ section {
 }
 
 .card-info button {
-  width: 8rem;
+  width: 20;
   height: 2.5rem;
   justify-content: center;
 }

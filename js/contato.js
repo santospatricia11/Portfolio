@@ -56,6 +56,7 @@ const saveContato = () => {
     };
     const index = document.getElementById("nome").dataset.index;
     if (index == "new") {
+      const response = confirm(`Contato Salvo Como ${contato.nome}`);
       createContato(contato);
       updateTable();
       closeModal();
